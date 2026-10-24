@@ -1,9 +1,9 @@
-package io.hhplus.tdd.database;
+package pro.tdd.proejct.database;
 
 
-import io.hhplus.tdd.model.entity.PointHistory;
-import io.hhplus.tdd.constants.TransactionType;
 import org.springframework.stereotype.Component;
+import pro.tdd.proejct.constants.TransactionType;
+import pro.tdd.proejct.model.entity.PointHistory;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,11 +1,10 @@
-package io.hhplus.tdd.controller;
+package pro.tdd.proejct.controller;
 
-import io.hhplus.tdd.model.entity.PointHistory;
-import io.hhplus.tdd.model.entity.UserPoint;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.*;
-
+import pro.tdd.proejct.model.entity.PointHistory;
+import pro.tdd.proejct.model.entity.UserPoint;
 import java.util.List;
 
 @RestController

@@ -1,6 +1,6 @@
-package io.hhplus.tdd.model.entity;
+package pro.tdd.proejct.model.entity;
 
-import io.hhplus.tdd.constants.TransactionType;
+import pro.tdd.proejct.constants.TransactionType;
 
 public record PointHistory(
         long id,

@@ -1,8 +1,7 @@
-package io.hhplus.tdd.database;
+package pro.tdd.proejct.database;
 
-import io.hhplus.tdd.model.entity.UserPoint;
 import org.springframework.stereotype.Component;
-
+import pro.tdd.proejct.model.entity.UserPoint;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
