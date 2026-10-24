@@ -1,4 +1,4 @@
-package io.hhplus.tdd.model.entity;
+package pro.tdd.proejct.model.entity;
 
 public record UserPoint(
         long id,

@@ -1,4 +1,4 @@
-package io.hhplus.tdd.constants;
+package pro.tdd.proejct.constants;
 
 
 /**
