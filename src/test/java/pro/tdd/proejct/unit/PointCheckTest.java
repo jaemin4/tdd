@@ -18,7 +18,7 @@ import static org.mockito.Mockito.verify;
 public class PointCheckTest {
 
     @Mock
-    private  UserPointTable userPointTable;
+    private UserPointTable userPointTable;
 
     @InjectMocks
     private PointService pointService;
