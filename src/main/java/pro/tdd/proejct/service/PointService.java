@@ -12,9 +12,6 @@ public class PointService {
     //특정 유저의 포인트를 조회한다.
     public long checkPoint (long userId){
         UserPoint userPoint = userPointTable.selectById(userId);
-        if(userPoint == null){
-            throw new RuntimeException("해당 유저의 포인트가 존재하지 않습니다.");
-        }
 
         if(userPoint.point() < 0){
             throw new RuntimeException("계좌의 잔액이 음수입니다.");
