@@ -6,7 +6,7 @@ plugins {
 
 group = "pro.tdd"
 version = "0.0.1-SNAPSHOT"
-description = "proejct"
+description = "project"
 
 java {
     toolchain {
@@ -31,4 +31,8 @@ dependencies {
 
 tasks.withType<Test> {
     useJUnitPlatform()
+}
+
+tasks.withType<JavaCompile>().configureEach {
+    options.encoding = "UTF-8"
 }
